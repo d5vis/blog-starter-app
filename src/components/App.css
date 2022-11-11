@@ -4,15 +4,17 @@
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
+  font-family: helvetica;
 }
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(48, 48, 73);
   color: white;
   grid-column: 1 / span 2;
-  padding: 10px 5px;
+  padding: 10px 10px;
 }
 
 form {
@@ -35,7 +37,7 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background-image: linear-gradient(#dee9ff, rgb(251, 211, 255));
 }
 
 nav p:hover {
@@ -55,4 +57,24 @@ article .body {
   background-color: red;
   color: gold;
   padding: 5px;
+}
+
+button {
+  background-color: rgba(255, 255 255, 50%);
+  border-radius: 12px;
+  border: 0;
+  padding: 7px;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: lightgray;
+  scale: 102%;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 30px;
+  margin: 0;
+  padding: 0;
 }
