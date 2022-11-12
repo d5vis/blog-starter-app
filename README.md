@@ -1,7 +1,14 @@
-# A Blog Starter App
+# A Blog App
 
-This is a trivial blog app, started with create-react-app.
+forked by Davis Banks
 
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
+This is a blog app, started with create-react-app.
+It uses Google Firebase and Firestore to store articles across authenticated users
 
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+Authenticated users have the ability to:
+
+- Sign-in/Sign-out
+- Create new articles
+- Delete articles
+
+For a link to the project, [click here](https://blog-d5vis.firebaseapp.com/)
